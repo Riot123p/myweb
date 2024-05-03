@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    font-family: courier;
+}
+.bgimage {
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(pagebackground.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.profile{
+    width: 200px;
+    border-radius: 100px;
+    border: 5px solid rgba(105, 29, 29, 0.842);
+    position: absolute;
+    bottom: 150px;
+    top: 50px;
+    left: 60px;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.greetings{
+    position: absolute;
+    left: 290px;
+    top: 110px;
+    font-size: 6cap;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.name{
+    position: absolute;
+    left: 290px;
+    top: 180px;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.selfintro{
+    text-align: justify;
+    max-width: 600px;
+    position: absolute;
+    left: 290px;
+    top: 300px;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.nav ul{
+    list-style-type: none;
+    background-color: rgba(0,0,0,0.75);
+    overflow: hidden;
+    color: white;
+}
+.nav a{
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+.nav a:hover{
+    background-color: black;
+}
+.nav li{
+    float: left;
+    color: white;
+}
+.lower{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(totoro.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.picture{
+    float: left;
+    margin-top: 70px;
+    margin-left: 10%;
+    border-radius: 10px;
+    height: 300px;
+    margin-right: 50px;
+}
+.content{
+    width: 500px;
+    margin: auto;
+    padding-top: 10%;
+    text-align: justify;
+}
+.end{
+    background-color: rgb(49, 42, 42);
+    text-align: center;
+    padding: 25px;
+    color: white;
+}
+.elem,
+.shs,
+.hs,
+.col {
+    width: 20%;
+    float: left;
+    padding: 10px;
+    border: solid white;
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 1%;
+    text-align: justify;
+}
+.content li{
+    padding: 10px;
+    width: 650px;
+}
+.img1{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 200px;
+    border: solid white;
+    height: 200px;
+}
+.img2{
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 80px;
+    border: solid white;
+    height: 150px;
+}
+.img3{
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 350px;
+    border: solid white;
+    height: 150px;
+}
+.contentl{
+    width: 700px;
+    margin: auto;
+    padding-top: 10%;
+    text-align: justify;
+}
